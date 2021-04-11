@@ -1,8 +1,8 @@
-body { 
+/* body { 
     background-size: cover;
-    background-color: black;
+    background-color: black; */
     /* background-image: url("./imgage.jpg"); */
-}
+/* } */
 
 section {
         background-color: white;
@@ -23,7 +23,7 @@ section {
     margin: 0 !important;
     display: flex;
     justify-content: space-around;
-    background-image: url("https://media.giphy.com/media/3o6fJ1JHgh4Xw4hoK4/giphy.gif");
+    background-image: url("https://media.giphy.com/media/LrMNKXTTmTIMixEGfb/source.gif"); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -70,18 +70,6 @@ img {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-/* .small{
-    width: 100%;
-    min-height: 80px;
-    height: fit-content;
-    letter-spacing: 4px;
-    line-height: 60px;
-    position: fixed;
-    background-color: rgb(255, 245, 234);
-    font-family: 'Poppins', sans-serif;
-    z-index: 3;
-    top: 0;
-} */
 
 .large {
     width: 250px;
@@ -106,7 +94,6 @@ img {
 }
 
 .skills-text {
-    /* padding-left: 300px; */
     bottom: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -126,9 +113,7 @@ img {
     padding-bottom: 70px;
 }
 
-/*about text 2*/
 #about-header, #skills-header {
-    /* margin-left: 250px; */
     font-family: 'Oswald', sans-serif;
     color: rgb(41, 5, 97);
     font-weight: bolder;
@@ -138,39 +123,28 @@ img {
     text-transform: uppercase;
     text-align: center;
 }
-/* #skills {
-    padding: 25px;
-    /* padding-right: 50px; */
-    /* padding-bottom: 200px;
-    margin-top: 40px; */
-    /* padding-top: 40px; */
-    /* background-color: bisque;
-    width: 100%;
-    height: 40%;
-/* } */ 
+
 
 p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
 /* new style*/
-/* #contact {
-    padding-top: 95px;
-    background-size: cover;
-    background-color: bisque;
-    padding: 10%;
+  #contact { 
+    /* padding-top: 95px;
+    background-size: cover; */
+    background-color: #4B5C54; 
+    /* padding: 10%;
     width: 100%;
-    height: 100vh;
-} */
+    height: 100vh; */
+}  
 
 article, aside, figcaption, figure, footer, header, hgroup, main, section {
     display: block;
 }
-/* this one too*/
 a#linked, a#git, #bar {
     text-decoration: none;
     text-transform: capitalize;
-    /* color: rgb(255, 245, 234); */
     color: rgb(68, 61, 73);
     display: inline;
     text-decoration: underline;
@@ -179,7 +153,7 @@ a#linked, a#git, #bar {
 a#linked, a#git, #bar {
     font-size: 32px !important;
 }
-/* trying new thing*/
+
 #contact-info {
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
@@ -219,17 +193,14 @@ a#linked, a#git, #bar {
     font-weight: bolder;
     font-size: 50px;
     letter-spacing: 3px;
-    /* padding-bottom: 20px; */
     text-transform: uppercase;
     text-align: center;
 }
 .img{
-    /* margin-left: 50%; */
     border-radius: 5px;
     border: 1px black solid;
 }
 .code-refactor {
-    /* padding-left: 300px; */
     bottom: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -240,7 +211,7 @@ a#linked, a#git, #bar {
 }
 #projects{
     text-align: center;
-    background-color: bisque; 
+    background-color: #4B5C54; 
     max-height: 100vh;
     overflow-y: auto;  
 }
@@ -256,7 +227,7 @@ a#linked, a#git, #bar {
 }
 
 #about{
-    background-color: bisque;
+    background-color: #4B5C54;
     width: 100%;
 }
 
@@ -272,6 +243,7 @@ footer {
 
 footer h2 {
     font-size: 20px;
+    padding-top: 400px;
 }
 
 #about-block{
@@ -304,6 +276,8 @@ footer h2 {
 
 #introduction{
     max-width: 400px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .skill{
@@ -328,3 +302,48 @@ nav{
     background-color: aquamarine !important;
 
 }
+
+#skills {
+    float: right;
+    width: 50%;
+    height: 90%;
+    max-height: 90%;
+  }
+  
+  #skills .skill1 {
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+            clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+    width: 50%;
+    height: 5%;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color:white;
+    padding: 5px;
+    text-align: center;
+  }
+
+  /* #logos {
+    position: relative;
+    display: block;
+    width: 5%;
+    height: 5%;
+    padding: 15px;
+    border-bottom: solid 1px black;
+    border-left: none;
+    border-right: none;
+    float: right;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+}
+
+#logos img {
+    display: inline-block;
+    position: relative;
+    width: 10%;
+    height: 35px;
+  } */
