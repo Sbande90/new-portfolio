@@ -1,0 +1,72 @@
+#who-i-am {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills {
+    /* float: right; */
+    /* width: 50%; */
+    /* height: 90%; */
+    /* max-height: 90%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#skills .skill1 {
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+    clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+    /* width: 50%; */
+    /* height: 5%; */
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-left: 20%;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+}
+
+@media (min-width:1200px) {
+    #skills{
+        width: 300px;
+        padding-left: 80px;
+    }
+    
+    #who-i-am{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills {
+        float: right;
+        width: 50%;
+        height: 90%;
+        max-height: 90%;
+      }
+      
+      #skills .skill1 {
+        -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+                clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+        width: 50%;
+        height: 5%;
+        list-style: none;
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 20%;
+        border-radius: 15px;
+        background-color:white;
+        padding: 5px;
+        text-align: center;
+      }
+}

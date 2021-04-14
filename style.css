@@ -15,6 +15,7 @@ section {
         max-height: fit-content;
         /* margin-top: 150px; */
         height: 100vh;
+        overflow-y: scroll;
     }
 
 #home{
@@ -159,7 +160,7 @@ a#linked, a#git, #bar {
     font-family: 'Oswald', sans-serif;
     color: rgb(255, 245, 234);
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 1.2rem;
     text-shadow: -3px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
     padding-top: 55px;
     letter-spacing: 3px;
@@ -282,6 +283,9 @@ footer h2 {
 
 .skill{
     margin: 15px 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .project-block{
@@ -305,7 +309,7 @@ nav{
 
 #skills {
     float: right;
-    width: 50%;
+    width: 500px;
     height: 90%;
     max-height: 90%;
   }
@@ -319,7 +323,7 @@ nav{
     font-size: 1.3rem;
     font-weight: bold;
     margin-bottom: 5px;
-    margin-left: 20%;
+    /* margin-left: 20%; */
     border-radius: 15px;
     background-color:white;
     padding: 5px;
