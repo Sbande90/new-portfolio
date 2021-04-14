@@ -329,6 +329,17 @@ nav{
     padding: 5px;
     text-align: center;
   }
+  a, #bar {
+      color: white !important;
+  }
+
+  #com, #git, #number, #linked {
+      color: rgb(150, 150, 248) !important;
+  }
+
+  .navbar-brand {
+      color: black !important;
+  }
 
   /* #logos {
     position: relative;
